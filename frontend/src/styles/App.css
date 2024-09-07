@@ -1,0 +1,20 @@
+.close {
+    float: right;
+    box-shadow: none;
+    border: none;
+
+    background: transparent;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    border-radius: 50%; 
+    width: 30px; 
+    height: 30px; 
+}
+
+.close:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+}

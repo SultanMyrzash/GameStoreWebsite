@@ -1,0 +1,87 @@
+h1{
+    margin: 0px;
+}
+.container {
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    min-height: 80vh;
+    max-width: 75%;
+    align-items: center;
+    color: white;
+}
+table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%; 
+    border-collapse: collapse; /* Removes borders between cells */
+}
+  
+tr {
+    background-color: rgba(0, 0, 0, 0.16);
+    margin-bottom: 10px; 
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4); /* Subtle box shadow */
+    transition: all 0.2s ease-in-out; /* Smooth hover transition */
+}
+  
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+th,
+td {
+    padding-left: 10px; /* Padding for content */
+    text-align: left; /* Align content left */
+}
+  
+th {
+    font-weight: bold; /* Bold text for headers (optional) */
+}
+  .created-by {
+    font-size: 0.8rem; /* Adjust font size for smaller text */
+    color: #999; /* Set a lighter color for less emphasis */
+}
+.game-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.home-button {
+    background: radial-gradient(circle, rgba(38,59,207,1) 56%, rgba(0,128,221,1) 100%);
+    border-radius: 4px;
+    border-color: #333acb;
+    padding: 10px;
+
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.home-button:hover {
+    background: radial-gradient(circle, rgba(0,128,221,1) 56%, rgba(38,59,207,1) 100%);
+    border-color: #646cff;
+}
+
+.delete-button {
+    background: radial-gradient(circle, rgb(203, 4, 4)  56%, rgb(255, 101, 18) 100%);
+    border-radius: 4px;
+    border-color: rgb(213, 0, 0);
+    padding: 10px;
+
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.delete-button:hover {
+    background: radial-gradient(circle, rgb(255, 101, 18) 56%, rgb(203, 4, 4) 100%);
+    border-color: #ff5e23;
+}
